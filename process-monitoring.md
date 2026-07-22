@@ -19,3 +19,27 @@ Command: `top -u`
 Description: Launches the real-time process monitor filtered specifically to display only processes owned by a designated user.
 
 Example: `top -u www-data`
+
+---
+
+Contributor: Jyia
+
+Command: `pgrep`
+
+Description: Searches for running processes by name and displays their Process IDs (PIDs).
+
+Example: `pgrep nginx`
+
+
+Command: `pstree`
+
+Description: Displays running processes in a tree structure, showing the parent and child relationships of running processes.
+
+Example: `pstree -p`
+
+
+Command: `watch`
+
+Description: Repeatedly executes a command at a specified interval, making it useful for continuously monitoring system activity.
+
+Example: `watch -n 2 "ps aux"`
