@@ -1,21 +1,21 @@
-Command: `mkdir`
+Command: `useradd`
 
-Description: creates directory
+Description: Creates a new user account on the system along with default configuration settings.
 
-Example: `mkdir -p a/b/c`
+Example: `useradd -m -s /bin/bash username`
 
----------------
+---
 
-Command: `touch`
+Command: `usermod`
 
-Description: creates empty file / updates timestamp
+Description: Modifies existing user account properties, such as adding a user to secondary groups or changing their default shell.
 
-Example: `touch file.txt`
+Example: `usermod -aG sudo username`
 
----------------
+---
 
-Command: `cat`
+Command: `passwd`
 
-Description: prints/concats file contents
+Description: Changes or updates the password associated with a specific user account.
 
-Example: `cat -n file.txt`
+Example: `passwd username`
