@@ -1,3 +1,27 @@
+Command: `ps`
+
+Description: Show snapshot of running processes.
+
+Example: `ps aux`
+
+---
+
+Command: `top`
+
+Description: Real-time process monitor. Press `q` to quit.
+
+Example: `top`
+
+---
+
+Command: `lsof`
+
+Description: List open files by process.
+
+Example: `lsof -p 1234`
+
+---
+
 Command: `kill`
 
 Description: Sends a signal (such as SIGTERM or SIGKILL) to terminate a running process using its Process ID (PID).
@@ -43,3 +67,4 @@ Command: `watch`
 Description: Repeatedly executes a command at a specified interval, making it useful for continuously monitoring system activity.
 
 Example: `watch -n 2 "ps aux"`
+
